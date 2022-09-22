@@ -1,0 +1,33 @@
+{
+	"name": "astro-minimal",
+	"type": "module",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"astro": "*"
+	},
+	"prettier": {
+		"jsxSingleQuote": true,
+		"singleQuote": true,
+		"printWidth": 100,
+		"useTabs": true,
+		"plugins": [
+			"./node_modules/prettier-plugin-astro"
+		],
+		"overrides": [
+			{
+				"files": "*.astro",
+				"options": {
+					"parser": "astro"
+				}
+			}
+		]
+	}
+}
