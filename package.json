@@ -11,7 +11,7 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"astro": "l"
+		"astro": "1"
 	},
 	"prettier": {
 		"jsxSingleQuote": true,
